@@ -1,0 +1,17 @@
+public static void main(String[] args) {
+        System.out.println("Lütfen Sayısal Değer Giriniz..: ");
+        Scanner Enes = new Scanner(System.in);
+        int i = Enes.nextInt();
+        if (i<=100 && i>=0){
+            if (i>=90){
+                System.out.println("Notunuz AA - Tebrikler!");
+                }else if (i>=80){
+                    System.out.println ("Notunuz BB - Tebrikler!");
+                }else if (i>=70){
+                    System.out.println ("Notunuz CC - Biraz Daha Gayret Etmelisin.");
+                }else if (i<70){
+                    System.out.println ("Notunuz FF - Eyvah Bu Sınava Tekrar Girmen Gerekecek.");
+                }    
+        }else
+           System.out.println ("Girdiğiniz not geçerli değil!"); 
+    }
